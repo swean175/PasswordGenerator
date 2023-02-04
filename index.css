@@ -1,0 +1,124 @@
+body{
+    font-size: 20px;
+    background-color: rgba(70, 70, 252, 1);
+    background-image: radial-gradient(circle, #4646fc 0%, rgba(78, 66, 61, 1) 100%);
+ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    color: rgb(205, 211, 121);
+       padding: 5%;
+}
+
+main{
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    /* background-color: rgb(34, 12, 85); */
+    background-color: rgba(67, 13, 80, 1);
+    background-image: radial-gradient(circle, rgba(67, 13, 80, 1) 22%, rgba(70, 70, 252, 1) 100%);
+    text-align: center;
+    border: solid 6px rgb(22, 21, 21);
+   min-width: 300px;
+   max-width: 40%;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+#gen{
+     padding: 10px;
+}
+
+#generate{
+  padding: 10px 5px;
+    background-color: rgb(34, 12, 85);
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(61, 9, 121) 35%, rgb(76, 0, 255) 100%);
+    min-width: 200px;
+    min-height: 80px;
+   font-size: 0.65em;
+ margin: 5px;
+    color:aquamarine;
+    border: solid 5px ;
+    border-radius: 10px;
+    
+}
+#generate:active{
+    background: #0a7239;
+}
+
+h1{
+    color:aquamarine;
+    text-shadow: -5px 0px 5px green, 5px 5px 5px red, 0px -5px 5px blue;
+}
+h2{
+    text-shadow: 0 0 4px wheat;
+}
+
+.passwords{
+    display: flex;
+    flex-direction: column;
+    border-top: solid rgb(32, 32, 32) 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    max-width: 500px;
+    padding-top: 10px;
+ 
+}
+
+.button-copy{
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top 20px;
+    display:block;
+    margin-left: 5px;
+    background-image: url(copy.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(142, 206, 248);
+    transition: 4000ns;
+   
+
+}
+.button-copy:active{
+    background-color: aquamarine;
+
+}
+
+
+label{
+    font-size: 15px;
+}
+
+input{
+    border-radius: 10px;
+    text-decoration-style: none;
+    text-decoration: none;
+    background-color: rgb(108, 162, 197);
+
+}
+
+#span1, #span2{
+    height: 34px;
+    display: block;
+    text-align: center;
+    color:rgb(7, 29, 5);
+    font-weight: bold;
+    outline: none;
+    font-size: 0.6em;
+}
+div{
+padding: 10px;
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+
+
+}
